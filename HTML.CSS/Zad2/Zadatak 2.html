@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Zadatak 2</title>
+		<meta name="author" content="Luka Buric">
+		<meta charset="UTF-8">
+	</head>
+	
+	<body>
+		<h2>Forma za spremanje podataka</h2>
+		<form name="tableForm" action="data.php" method="POST">
+			<table border="1px solid black">
+				<thead>
+					<tr>
+						<td>Username</td>
+						<td>Puno_ime</td>
+						<td>Lozinka</td>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<!-- <td>Milo</td> -->
+						<!-- <td>Milo Horvat</td> -->
+						<!-- <td>milo1234 </td> -->
+						<td><input type=”textfield” name=”username”/></td>
+						<td><input type=”textfield” name=”punoIme”/></td>
+						<td><input type=”textfield” name=”lozinka”/></td>
+					</tr>
+				</tbody>
+			</table>
+			<h4>Spremiti?</h4>
+			DA<input type="radio" name="spremiti" value="DA"/>
+			NE<input type="radio" name="spremiti" value="NE"/>
+			<br>
+			<input style="margin-top:10px" type="submit" value="Potvrdi" />
+		</form>
+	</body>
+</html>

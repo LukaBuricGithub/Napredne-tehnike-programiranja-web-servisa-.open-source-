@@ -1,0 +1,19 @@
+.title
+{
+	text-align:center;
+}
+.inputField
+{
+	background-color:bisque;
+}
+.login
+{
+	margin: 0 auto 0 auto;
+	background-color:RoyalBlue;
+	width:25%;
+}
+.centerItemInForm
+{
+	width:75%;
+	margin: 0 auto 0 auto;
+}
